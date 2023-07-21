@@ -2,24 +2,26 @@ import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer';
 
 import { type NextRequest } from 'next/server'
+import { log } from 'console';
 
 export async function POST(request: Request) {
     const body = await request.json()
     const { email, fname, lname, contry, budget, service, measge } = body
     console.log(email, "subject")
+    
     const transporter = nodemailer.createTransport({
 
         service: 'Gmail',
         auth: {
-            user: 'vishal.nakiya@tuvoc.com',
-            pass: 'Nakiya12345@'
+            user: process.env.emailid,
+            pass: process.env.password
         },
     });
     try {
-   
+
         await transporter.sendMail({
-            from: 'vishal.nakiya@tuvoc.com',
-            to: email,
+            from: email,
+            to: 'vishal.nakiya@tuvoc.com',
             subject: service,
             html: `<p>First name:${fname}</p>
            <p>Last name:${lname} </p>
