@@ -29,8 +29,8 @@ const Navbar = (props: Props) => {
 
   const handleDropMenuClick = (index: number) => {
     setActiveDropdownIndex(index);
-    setIsDropdownOpen(false);
-  };
+setIsDropdownOpen(false);
+    setIsSidebarOpen(false)  };
 
   useEffect(() => {
     const handleResize = () => {
