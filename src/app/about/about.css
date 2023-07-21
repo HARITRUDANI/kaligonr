@@ -1,0 +1,33 @@
+.abou-title {
+    color: #FFF;
+    font-family: PP Eiko;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.08rem;
+}
+
+.about-heading {
+    color: #FFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875rem;
+    /* 187.5% */
+    text-transform: uppercase;
+}
+
+.about-content {
+    color: #FFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-subtitle {
+    color: #60F9D8;
+    /* font-family: PP Eiko; */
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 0.04rem;
+}

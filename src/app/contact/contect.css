@@ -1,0 +1,28 @@
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: PP Eiko;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.08rem;
+
+}
+
+.contect-page {
+    position: relative;
+}
+
+.contect-container {
+    border-radius: 1.375rem;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+}
+
+.submit-btn {
+    border-radius: 1.875rem;
+    font-family: Arial;
+
+    background: linear-gradient(135deg, #60F9D8 0%, #34E5F3 100%);
+}

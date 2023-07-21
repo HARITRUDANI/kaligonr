@@ -1,0 +1,29 @@
+.mainpage-content-one {
+    color: #FFF;
+    /* font-family: PP Eiko; */
+
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.135rem;
+}
+
+.mainpage-content-one-sub {
+    color: #60F9D8;
+    /* font-family: PP Eiko; */
+
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.135rem;
+}
+
+.mainpage-content-two {
+    color: #FFF;
+    font-family: Arial;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+
+}

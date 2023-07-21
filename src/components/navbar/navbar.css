@@ -1,0 +1,30 @@
+.menubackground {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%);
+    backdrop-filter: blur(8px);
+}
+.dropdownbg {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.40) 100%);
+
+}
+
+
+/* menu items */
+.menu {
+    font-family: arial;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.othermenu {
+    font-family: arial;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.responsivemenu {
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

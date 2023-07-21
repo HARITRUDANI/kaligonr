@@ -1,0 +1,30 @@
+.input-lable {
+    color: #141414;
+    font-family: Arial;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.input-container {
+    border: none; 
+    outline: none; 
+    border-radius: 1.875rem;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.40) 0%, rgba(20, 20, 20, 0.40) 100%);
+    flex-shrink: 0;
+    font-family: Arial;
+
+}
+
+.input-container input {
+    border: none; 
+    outline: none; 
+    color: #969696;
+    font-family: Arial;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
