@@ -20,7 +20,7 @@ export async function POST(request: Request) {
     try {
 
         await transporter.sendMail({
-            from: process.env.emailid,
+                 from: process.env.emailid,
             to: process.env.emailid,
             subject: service,
             html: `<p>First name:${fname}</p>
