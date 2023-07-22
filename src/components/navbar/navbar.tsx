@@ -22,8 +22,9 @@ const Navbar = (props: Props) => {
       setIsDropdownOpen(!isDropdownOpen);
     } else {
       setActiveIndex(index);
-      setIsDropdownOpen(false);
-      setActiveDropdownIndex(-1);
+ setIsDropdownOpen(false);
+    setIsSidebarOpen(false)  };
+    setActiveDropdownIndex(-1);
     }
   };
 
