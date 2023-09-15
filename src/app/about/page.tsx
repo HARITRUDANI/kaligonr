@@ -32,7 +32,9 @@ const About = (props: Props) => {
               Creative | CodeX (Software) | Electronics (Hardware)
             </span>
           </div>
+          <div className="w-[9.375rem]">
           <Contactbuton />
+          </div>
         </div>
         <div className="w-full md:w-1/2">
           <Image

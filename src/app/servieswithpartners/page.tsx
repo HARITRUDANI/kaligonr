@@ -45,9 +45,11 @@ const RdserviceandPartners = (props: Props) => {
                     </div>
               </div>
             ))}
+         
           </div>
+          <div className="w-[9.375rem]">
           <Contactbuton />
-        </div>
+          </div>        </div>
         {/* our partners */}
       </div>
     </div>

@@ -15,7 +15,7 @@
     justify-content: center; /* Add this line */
     border-radius: 1.875rem;
     background: linear-gradient(135deg, #60F9D8 0%, #34E5F3 100%);
-    width: 9.375rem;
+    width:"";
     height: 3.125rem;
     flex-shrink: 0;
 }

@@ -40,7 +40,7 @@ const customStyles = {
   }),
   singleValue: (provided:any) => ({
     ...provided,
-    color: "#000000", // Set the color to black (#000000)
+    color: "#000000", 
   }),
   menu: (base:any) => ({
     ...base,

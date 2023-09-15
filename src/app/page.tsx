@@ -38,7 +38,7 @@ export default function Home() {
               distribution of <br />{" "}
               {`letters, as opposed to using 'Content here`}
             </p>
-            <div className="mt-4">
+            <div className="mt-4 w-[9.375rem]">
               <Contactbuton />
             </div>
           </div>
