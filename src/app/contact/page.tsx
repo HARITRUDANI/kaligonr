@@ -99,23 +99,37 @@ const ContectUs = (props: Props) => {
                 )}
               </div>
               <div>
-                <SelectComponent
-                  cataSelect={false}
-                  inputRef="country"
-                  data={contryListing}
-                  placeHolder="Select your country"
-                  label="Country*"
-                  control={control}
+
+                <InputComponent
+                  name="lastName"
+                  placeHolder="Enter your last name"
+                  label="Last name*"
+                  register={register}
                 />
                 {errors && (
                   <span className="text-sm text-red-600 font-serif gap-0 mt-2 ml-2 ">
-                    {errors.country?.message}
+                    {errors.lastName?.message}
                   </span>
                 )}
               </div>
 
               <div>
-                <SelectComponent
+              <InputComponent
+                  name="email"
+                  placeHolder="Enter your email address"
+                  label=" Email*"
+                  register={register}
+                />
+                {errors && (
+                  <span className="text-sm text-red-600 font-serif gap-0 mt-2 ml-2 ">
+                    {errors.email?.message}
+                  </span>
+                )}
+              </div>
+            </div>
+            <div className="w-full md:w-1/2 flex flex-col gap-4 md:gap-8">
+              <div>
+              <SelectComponent
                   cataSelect={false}
                   inputRef="service"
                   data={otp}
@@ -129,31 +143,18 @@ const ContectUs = (props: Props) => {
                   </span>
                 )}
               </div>
-            </div>
-            <div className="w-full md:w-1/2 flex flex-col gap-4 md:gap-8">
               <div>
-                <InputComponent
-                  name="lastName"
-                  placeHolder="Enter your last name"
-                  label="Last name*"
-                  register={register}
+              <SelectComponent
+                  cataSelect={false}
+                  inputRef="country"
+                  data={contryListing}
+                  placeHolder="Select your country"
+                  label="Country*"
+                  control={control}
                 />
                 {errors && (
                   <span className="text-sm text-red-600 font-serif gap-0 mt-2 ml-2 ">
-                    {errors.lastName?.message}
-                  </span>
-                )}
-              </div>
-              <div>
-                <InputComponent
-                  name="email"
-                  placeHolder="Enter your email address"
-                  label=" Email*"
-                  register={register}
-                />
-                {errors && (
-                  <span className="text-sm text-red-600 font-serif gap-0 mt-2 ml-2 ">
-                    {errors.email?.message}
+                    {errors.country?.message}
                   </span>
                 )}
               </div>
