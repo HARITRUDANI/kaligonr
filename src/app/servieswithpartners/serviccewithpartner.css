@@ -35,14 +35,15 @@
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 1.25rem;
+    font-size: 1.8rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 450;
     line-height: normal;
     letter-spacing: 0.05rem;
-    
+
 }
-.line{
+
+.line {
     width: 0.125rem;
     height: 13.875rem;
     background: radial-gradient(50% 50.00% at 50% 50.00%, #FFF 0%, rgba(20, 20, 20, 0.00) 100%);

@@ -1,10 +1,11 @@
 .menubackground {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.40) 100%);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(30px);
 }
+
 .dropdownbg {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.40) 100%);
-
+    backdrop-filter: blur(30px);
 }
 
 

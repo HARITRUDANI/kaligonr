@@ -72,14 +72,18 @@ const ContectUs = (props: Props) => {
     <>
       <div
         id="ContectUs"
-        className="w-full h-fit z-50 relative bg-center bg-cover flex justify-center align-middle items-center flex-col gap-5 md:gap-10 px-5 md:px-20 py-5 md:py-10"
+        className="z-50  bg-center bg-cover flex justify-center align-middle items-center flex-col gap-5 md:gap-10 px-5 md:px-20 py-5 md:py-24"
         style={{
           backgroundImage: `url('${backgroundImage}')`,
         }}
       >
         <p className="title text-[1.5rem] md:text-[2rem]">Contact Us</p>
 
-        <form
+        <div className="contect-container w-fit h-fit flex justify-between flex-col p-2 md:p-4 gap-4 md:gap-8 text-center text-3xl">
+          <a href="mailto:info@kaligon.com">Info@Kaligon.com</a>
+        </div>
+
+        {/* <form
           className="contect-container w-full h-fit flex justify-between flex-col p-5 md:p-10 gap-4 md:gap-8 "
           onSubmit={handleSubmit(onSubmit)}
         >
@@ -99,7 +103,6 @@ const ContectUs = (props: Props) => {
                 )}
               </div>
               <div>
-
                 <InputComponent
                   name="lastName"
                   placeHolder="Enter your last name"
@@ -114,7 +117,7 @@ const ContectUs = (props: Props) => {
               </div>
 
               <div>
-              <InputComponent
+                <InputComponent
                   name="email"
                   placeHolder="Enter your email address"
                   label=" Email*"
@@ -129,7 +132,7 @@ const ContectUs = (props: Props) => {
             </div>
             <div className="w-full md:w-1/2 flex flex-col gap-4 md:gap-8">
               <div>
-              <SelectComponent
+                <SelectComponent
                   cataSelect={false}
                   inputRef="service"
                   data={otp}
@@ -144,7 +147,7 @@ const ContectUs = (props: Props) => {
                 )}
               </div>
               <div>
-              <SelectComponent
+                <SelectComponent
                   cataSelect={false}
                   inputRef="country"
                   data={contryListing}
@@ -193,7 +196,7 @@ const ContectUs = (props: Props) => {
               submit
             </button>
           </div>
-        </form>
+        </form> */}
       </div>
       <Footer />
     </>

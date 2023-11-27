@@ -34,20 +34,6 @@ const Navbar = (props: Props) => {
     setIsSidebarOpen(false);
   };
 
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth >= 728 && window.innerWidth < 1500) {
-        setIsSidebarOpen(false);
-      }
-    };
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
   return (
     <nav
       className={`fixed top-0 flex-shrink-0 navbg w-full menubackground z-50`}
@@ -60,7 +46,7 @@ const Navbar = (props: Props) => {
               : " md:w-full md:h-[6.875rem]"
           }  `}
         >
-          <div className="mx-6 my-8  md:mx-[3rem] md:my-0 w-[6rem] h-[1.875rem] md:w-auto md:h-auto">
+          <div className="mx-6 my-8  md:my-0 w-[6rem] h-[1.875rem] md:w-auto md:h-auto">
             <Image
               src="/./assets/Logos/Kaligon white 1.png"
               alt="AS"

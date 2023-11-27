@@ -4,18 +4,22 @@
     font-family: Arial;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 0.04rem;
 }
 
 .contectdiv {
-    display: flex; /* Add this line */
-    align-items: center; /* Add this line */
-    justify-content: center; /* Add this line */
+    display: flex;
+    /* Add this line */
+    align-items: center;
+    /* Add this line */
+    justify-content: center;
+    /* Add this line */
     border-radius: 1.875rem;
-    background: linear-gradient(135deg, #60F9D8 0%, #34E5F3 100%);
-    width:"";
-    height: 3.125rem;
+    background: linear-gradient(135deg, #60F9D8 0%, #34E5F3 50%, #fff 100%);
+    /* background: linear-gradient(135deg, #60F9D8 0%, #34E5F3 100%); */
+    width: "";
+    height: 3rem;
     flex-shrink: 0;
 }
